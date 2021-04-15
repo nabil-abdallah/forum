@@ -42,7 +42,7 @@ CREATE TABLE IF NOT EXISTS `messagesthreads` (
 --
 
 INSERT INTO `messagesthreads` (`id`, `id_thread`, `id_utilisateur`, `messages`, `date`) VALUES
-(23, '32', '27', 'C\'est trop bien', '2020-02-24 12:21:40');
+(23, '32', '27', 'C\'est trop bien', '2021-04-15 14:52:40');
 
 -- --------------------------------------------------------
 

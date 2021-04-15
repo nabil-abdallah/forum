@@ -1,13 +1,13 @@
 <?php
 
 	session_start();
-
+	$connexion = mysqli_connect("$serverName", "$userName", "$passwordServer", "$nameTable") ;
 	$serverName = "localhost";
-    $userName = "root";
-    $passwordServer = "";
+    $userName = "nabil";
+    $passwordServer = "N@bila21";
     $nameTable = "forum";
 
-    $connexion = mysqli_connect("$serverName", "$userName", "$passwordServer", "$nameTable") ;
+   
 
     
     $requeteUser = "SELECT id,login,age FROM utilisateurs";

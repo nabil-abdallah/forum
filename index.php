@@ -1,6 +1,6 @@
 
 <?php 
-
+include_once ('connexiondb.php');
 
     session_start();
     $connexion = mysqli_connect("localhost", "nabil","N@bila21","forum");
@@ -74,7 +74,7 @@
                     </section>
                     <section class="toastpoussage4";>
                         <article class="toastpoussage5">
-                            Dernier message envoyé par Paul le 29/01/2020 à 11h34.
+                            Dernier message envoyé par nabil le 15/04/2021 à 14h21.
                         </article>
                     </section>
                 </section>

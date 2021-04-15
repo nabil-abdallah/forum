@@ -6,7 +6,7 @@
 	{
 		$login = $_POST['login'] ;
 
-		$connexion = mysqli_connect("localhost", "root", "", "forum") ;
+		$connexion = mysqli_connect("localhost", "nabil", "N@bila21", "forum") ;
 
 		$requeteCountUser = "SELECT count(*) as toast FROM utilisateurs WHERE login = \"$login\" ";
 		$queryCountUser = mysqli_query($connexion, $requeteCountUser) ;

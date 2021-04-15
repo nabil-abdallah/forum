@@ -1,4 +1,5 @@
 <?php
+include_once ('connexiondb.php');
 	session_start() ;
 	$inscriptionImpossible = false ;
 	$connexion = mysqli_connect("localhost", "nabil", "N@bila21", "forum") ;

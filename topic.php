@@ -2,7 +2,7 @@
     
     if (isset($_GET['id'])) 
     {
-        $connexion = mysqli_connect("localhost","root","","forum");
+        $connexion = mysqli_connect("localhost","nabil","N@bila21","forum");
         $requetethread2 = "SELECT * FROM thread WHERE id_topic = ".$_GET['id']."";
         echo $requetethread2;
         $querythread2 = mysqli_query($connexion, $requetethread2);

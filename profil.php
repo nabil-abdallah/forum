@@ -1,12 +1,12 @@
 <?php 
 
     session_start();
-
-    $serverName = "localhost";
-    $userName = "root";
-    $passwordServer = "";
-    $nameTable = "forum";
     $connexion = mysqli_connect("$serverName", "$userName", "$passwordServer", "$nameTable") ;
+    $serverName = "localhost";
+    $userName = "nabil";
+    $passwordServer = "N@bila21";
+    $nameTable = "forum";
+    
 
     if (isset($_GET['id'])) 
     {

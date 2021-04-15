@@ -1,7 +1,7 @@
 <?php 
 
     session_start();
-    $connexion = mysqli_connect("localhost", "root", "", "forum");
+    $connexion = mysqli_connect("localhost", "nabil", "N@bila21", "forum");
     if(isset($_POST['validationtopic']))
     {
         $nomtopic = $_POST['topicname'];
